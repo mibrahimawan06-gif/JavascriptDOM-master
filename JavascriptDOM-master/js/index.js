@@ -18,3 +18,13 @@ function createLi(className, id, text)
 
 let testLi = createLi("healthy", "five", "Banana");
 console.log(testLi);
+
+// TASK 2
+
+function appendLi(listId, liElement)
+ {
+    let list = document.getElementById(listId);
+
+    list.appendChild(liElement);
+}
+appendLi("list", testLi);
