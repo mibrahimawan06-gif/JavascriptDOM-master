@@ -39,3 +39,11 @@ function changeClass(element, newClass)
 changeClass(testLi, "unhealthy");
 
 console.log(testLi);
+
+// TASK 4
+
+function deleteLi(element)
+{
+    element.remove();
+}
+deleteLi(testLi);
