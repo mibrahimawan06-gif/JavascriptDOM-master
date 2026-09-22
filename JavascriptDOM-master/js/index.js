@@ -47,3 +47,15 @@ function deleteLi(element)
     element.remove();
 }
 deleteLi(testLi);
+
+// EVENT LISTENER
+
+let addButton = document.getElementById("addButton");
+let itemInput = document.getElementById("itemInput");
+
+addButton.addEventListener("click", function () {
+
+    let inputText = itemInput.value;
+
+    console.log(inputText);
+});
