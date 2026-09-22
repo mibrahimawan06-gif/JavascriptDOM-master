@@ -28,3 +28,14 @@ function appendLi(listId, liElement)
     list.appendChild(liElement);
 }
 appendLi("list", testLi);
+
+// TASK 3
+
+function changeClass(element, newClass)
+{
+    element.setAttribute("class", newClass);
+}
+
+changeClass(testLi, "unhealthy");
+
+console.log(testLi);
